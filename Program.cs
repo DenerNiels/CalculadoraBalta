@@ -92,7 +92,7 @@ static void Multiplicacao()
     Console.WriteLine(" ");
 
     float resultado = v1 * v2;
-    Console.WriteLine($"O resultado da multiplicação é:");
+    Console.WriteLine($"O resultado da multiplicação é: {resultado}");
     Console.ReadKey();
     Menu();
 }
